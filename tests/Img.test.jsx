@@ -2,7 +2,7 @@
 import * as React from 'react';
 import Enzyme, { mount } from 'enzyme';
 import EnzymeAdapter from 'enzyme-adapter-react-16';
-import Img from '../src/index';
+import Img from '../src';
 
 Enzyme.configure({ adapter: new EnzymeAdapter() });
 
