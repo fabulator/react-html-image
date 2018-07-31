@@ -1,0 +1,15 @@
+[ignore]
+<PROJECT_ROOT>/build/.*
+<PROJECT_ROOT>/dev/.*
+<PROJECT_ROOT>/node_modules/.*
+<PROJECT_ROOT>/test_results/.*
+
+
+[include]
+
+[options]
+
+[version]
+>=0.70.0
+
+[libs]
