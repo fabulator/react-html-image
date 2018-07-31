@@ -150,8 +150,8 @@ export default class Img extends React.PureComponent<Props, State> {
             alt={alt}
             width={width}
             height={height}
-            srcSet={srcSet.map(set => `${set.src}${set.size ? ` ${set.size}` : ''}`).join(',')}
-            sizes={sizes.join(',')}
+            srcSet={srcSet.map(set => `${set.src}${set.size ? ` ${set.size}` : ''}`).join(', ')}
+            sizes={sizes.join(', ')}
             onLoad={this.onLoad}
             onError={this.onError}
             className={theme.image}

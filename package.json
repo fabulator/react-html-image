@@ -1,6 +1,6 @@
 {
   "name": "react-html-image",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React handler for img element",
   "main": "index.js",
   "jsnext:main": "dist/index.es.js",

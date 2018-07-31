@@ -23,7 +23,7 @@ describe('Test Img component', () => {
         const img = mount(<Img srcSet={srcSet} />).find('img');
 
         expect(img.prop('src')).toEqual(someImage);
-        expect(img.prop('srcSet')).toEqual(`${someImage},${someImage2} 500w`);
+        expect(img.prop('srcSet')).toEqual(`${someImage}, ${someImage2} 500w`);
     });
 
     it('do not render img element if src is not set', () => {
