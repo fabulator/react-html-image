@@ -36,8 +36,8 @@ export default class Img extends React.PureComponent<Props, State> {
         srcSet: [],
         sizes: [],
         theme: {},
-        error: undefined,
-        loader: undefined,
+        error: null,
+        loader: null,
         width: undefined,
         height: undefined,
         src: undefined,
@@ -133,7 +133,7 @@ export default class Img extends React.PureComponent<Props, State> {
         const src = this.getSrc();
 
         if (!src) {
-            return undefined;
+            return null;
         }
 
         const {
