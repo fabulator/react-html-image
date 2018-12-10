@@ -33,7 +33,7 @@
     "@socifi/jest-config": "^1.10.0",
     "@socifi/rollup-config": "^1.10.0",
     "babel-loader": "^8.0.4",
-    "css-loader": "^1.0.0",
+    "css-loader": "^1.0.1",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.6.0",
     "flow-bin": "^0.87.0",
