@@ -35,7 +35,7 @@
     "babel-loader": "^8.0.5",
     "css-loader": "^2.1.1",
     "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.10.0",
+    "enzyme-adapter-react-16": "^1.11.2",
     "flow-bin": "^0.94.0",
     "flow-coverage-report": "^0.6.1",
     "flow-typed": "^2.5.1",
