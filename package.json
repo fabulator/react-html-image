@@ -38,7 +38,7 @@
     "enzyme-adapter-react-16": "^1.14.0",
     "flow-bin": "^0.103.0",
     "flow-coverage-report": "^0.6.1",
-    "flow-typed": "^2.5.2",
+    "flow-typed": "^2.6.0",
     "postcss-loader": "^3.0.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.35.3",
